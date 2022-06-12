@@ -1,0 +1,48 @@
+* {
+
+    box-sizing: border-box;
+}
+
+header, footer {
+
+    height: 100px;
+    width: auto;
+    background: lightcyan;
+    clear: both;
+}
+
+.topsection, .leftsection, .rightsection  {
+   background: gray;
+}
+
+.topsection {
+    height: 300px;
+    width: 100%;
+    float: none;
+    background: lightgreen;
+    border: 2px solid red;
+
+
+}
+
+.leftsection {
+
+    height: 400px;
+    width: 33.3333%;
+    float: left;
+    background: lightgoldenrodyellow;
+    border: 2px solid green;
+
+
+}
+
+.rightsection {
+
+
+    height: 400px;
+    width: 66.6666%;
+    float: right;
+    background: lightsalmon;
+    border: 2px solid purple;
+
+}
