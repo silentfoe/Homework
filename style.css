@@ -1,0 +1,73 @@
+/* this is for my homeworkclass4 html file */
+html {
+
+   border: 5px solid green;
+   margin: 15%;
+  
+  
+   
+}
+
+
+body {
+  background-color: rgb(20, 224, 255);
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+}
+
+img {
+
+    float: right;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", Courier, monospace;
+    color: white;
+}
+
+ul{
+    position: relative;
+    display: inline-block;  
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+
+li {
+
+    display: inline;
+    color: white;
+    list-style: none;
+    border-right: 2px solid gray;
+    padding: 3px;
+  
+      
+}
+
+/* removing the last vertical border to the right */
+li:last-child {
+    border-right: none;
+}
+
+
+
+h2 {
+    
+    color: white;
+    
+}
+
+p {
+    
+    color: white;
+}
+
+a {
+    color:green;
+}
+
+
